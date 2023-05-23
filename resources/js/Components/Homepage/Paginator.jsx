@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "@inertiajs/react";
 
 const Paginator = ({meta}) => {
@@ -7,9 +8,9 @@ const Paginator = ({meta}) => {
     const current = meta.current_page;
 
     return (
-        <div className="btn-group">
-            {prev && <Link href={prev} className="btn btn-outline">«</Link>}
-            <Link className="btn btn-outline">{current}</Link>
+        <div className="btn-group grid grid-cols-2">
+            {prev && <Link href={prev} className="btn btn.outline">«</Link>}
+            <Link className="btn">{current}</Link>
             {next && <Link href={next} className="btn btn-outline">»</Link>}
         </div>
     )

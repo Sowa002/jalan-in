@@ -1,22 +1,36 @@
+
+import React from "react"
+
 import { Link } from "@inertiajs/react"
 
 const Navbar = ({ user }) => {
     return (
-        <div className="navbar bg-white">
-            <div className="flex-1">
-                <a className="btn btn-ghost normal-case text-xl text-black">JALAN.IN</a>
-            </div>
-            <div className="flex-none gap-2">
-                <div className="form-control">
-                    <input type="text" placeholder="Search" className="input input-bordered bg-white"/>
-                </div>
-                <div className="dropdown dropdown-end text-black">
-                    <label tabIndex="0" className="btn btn-ghost btn-circle avatar">
-                        <div className="w-10 rounded-full">
-                            <img src="https://placeimg.com/400/225/arch" />
-                        </div>
-                    </label>
-                    <ul tabIndex="0" className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-white rounded-box w-52">
+
+        <div>
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+        {/* Template Main CSS File */}
+        <link href="assets/css/style.css" rel="stylesheet" />
+      
+      <header id="header" className="d-flex align-items-center">
+        <div className="container d-flex align-items-center justify-content-between">
+          <div className="logo">
+            {/* <h1><a href="index.html">Flexor</a></h1> */}
+            {/* Uncomment below if you prefer to use an image logo */}
+            <a href="/"><img src="assets/img/Logo-biru.png" alt="" className="img-fluid" /></a>
+          </div>
+          <nav id="navbar" className="navbar">
+            <ul>
+              <li><a className="font-weight-bold" href="#portfolio">Daftar Tempat</a></li>
+              <li><a className="nav-link scrollto font-weight-light" href="/#faq">Daftar Makanan</a></li>
+            </ul>
+            <li class="dropdown"><a href="#"><span>Login</span> <i class="bi bi-chevron-down"></i></a>
+            <ul tabIndex="0" className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-white rounded-box w-52">
+
                         {!user ?
                             <>
                                 <li><Link href={route('login')} as="button">Login</Link></li>
@@ -35,9 +49,14 @@ const Navbar = ({ user }) => {
                             </>
                         }
                     </ul>
-                </div>
-            </div>
+          </li>
+            <i className="bi bi-list mobile-nav-toggle" />
+          </nav>{/* .navbar */}
         </div>
+        </header>
+    </div>
+            
+            
     )
 }
 
