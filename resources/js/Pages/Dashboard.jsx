@@ -35,7 +35,7 @@ export default function Dashboard({ auth }) {
     return (
         <AuthenticatedLayout
             user={auth.user}
-            header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Dashboard</h2>}
+            header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Tambah Tempat</h2>}
         >
             <Head title="Dashboard" />
 
@@ -59,13 +59,18 @@ export default function Dashboard({ auth }) {
                 <div className="p-4">
                 {props.myNews && props.myNews.length > 0 ? props.myNews.map((news, i) => {
                         return (
-                    <div key={i} className="card w-full lg:w-96 bg-white shadow-xl text-black m-2 ">
+                    <div key={i} className="w-full max-w-7xl mx-auto sm:px-6 lg:px-8 bg-white shadow-xl text-black m-2 ">
                         <div className="card-body">
                             <h2 className="card-title">
                                 {news.nama}
-                                <div className="badge badge-secondary">{news.harga}</div>
+                                
                             </h2>
                             <p>{news.desc}</p>
+
+                            <div className="text-secondary">
+                                {news.harga}
+                            </div>
+
                             <div className="card-actions justify-end">
                                 <div className="badge badge-inline">{news.category}</div>
                                 <div className="badge badge-outline">
