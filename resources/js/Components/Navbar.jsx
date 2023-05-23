@@ -1,8 +1,11 @@
+
 import React from "react"
+
 import { Link } from "@inertiajs/react"
 
 const Navbar = ({ user }) => {
     return (
+
         <div>
         <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
         <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -27,6 +30,7 @@ const Navbar = ({ user }) => {
             </ul>
             <li class="dropdown"><a href="#"><span>Login</span> <i class="bi bi-chevron-down"></i></a>
             <ul tabIndex="0" className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-white rounded-box w-52">
+
                         {!user ?
                             <>
                                 <li><Link href={route('login')} as="button">Login</Link></li>
