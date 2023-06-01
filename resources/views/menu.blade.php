@@ -38,20 +38,6 @@
 
 <body>
 
-  <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">jalanin@gmail.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+62 8385 8477 346</span></i>
-      </div>
-
-      <div class="cta d-none d-md-flex align-items-center">
-        <a href="login" class="scrollto">Login</a>
-      </div>
-    </div>
-  </section>
-
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
@@ -103,7 +89,7 @@
       <h2><em>Enjoy Your Trip with Us</em></h2>
       <div class="d-flex align-items-center">
         <i class="bx bxs-right-arrow-alt get-started-icon"></i>
-        <a href="https://64790e842e4aa51ca21a5b9f--lambent-biscotti-521ca3.netlify.app/" class="btn-get-started scrollto">Get Started</a>
+        <a href="https://jalan-in.netlify.app/" class="btn-get-started scrollto">Get Started</a>
       </div>
     </div>
   </section><!-- End Hero -->
