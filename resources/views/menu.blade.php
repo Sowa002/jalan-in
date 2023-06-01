@@ -103,7 +103,7 @@
       <h2><em>Enjoy Your Trip with Us</em></h2>
       <div class="d-flex align-items-center">
         <i class="bx bxs-right-arrow-alt get-started-icon"></i>
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <a href="https://64790e842e4aa51ca21a5b9f--lambent-biscotti-521ca3.netlify.app/" class="btn-get-started scrollto">Get Started</a>
       </div>
     </div>
   </section><!-- End Hero -->
