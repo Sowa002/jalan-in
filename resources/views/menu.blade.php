@@ -74,7 +74,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -89,7 +89,7 @@
       <h2><em>Enjoy Your Trip with Us</em></h2>
       <div class="d-flex align-items-center">
         <i class="bx bxs-right-arrow-alt get-started-icon"></i>
-        <a href="https://jalan-in.netlify.app/" class="btn-get-started scrollto">Get Started</a>
+        <a href="https://jalan-in.netlify.app/" class="btn-get-started scrollto">Jelajahi</a>
       </div>
     </div>
   </section><!-- End Hero -->
@@ -397,7 +397,6 @@
 
         <div class="section-title">
           <h2 data-aos="fade-up"><strong>Daftar Tempat</strong></h2>
-          <p data-aos="fade-up">Jadi gini, ini tu ada 2 bagian yaitu ada daftar tempat dan daftar kuliner...</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -544,7 +543,7 @@
 
         <div class="section-title">
           <h2 data-aos="fade-up"><strong>Team</strong></h2>
-          <p data-aos="fade-up">Para Monyet RPL</p>
+          <p data-aos="fade-up">Tim Kami</p>
         </div>
 
         <div class="row">
@@ -787,23 +786,23 @@
           <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up">
             <div class="info-box">
               <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <h3>Alamat Kami</h3>
+              <p>Jl. Gang COkro, Kota Semarang, Indonesia</p>
             </div>
           </div>
 
           <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="100">
             <div class="info-box">
               <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
-              <p>info@example.com<br>contact@example.com</p>
+              <h3>Email Kami</h3>
+              <p>jalanin@gmail.com</p>
             </div>
           </div>
           <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="200">
             <div class="info-box">
               <i class="bx bx-phone-call"></i>
-              <h3>Call Us</h3>
-              <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+              <h3>Telepon</h3>
+              <p>+628512332112</p>
             </div>
           </div>
         </div>
@@ -851,11 +850,11 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Flexor</h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Jl. Gang COkro  <br>
+              Kota Semarang<br>
+              Indonesia <br><br>
+              <strong>Phone:</strong> +628512332112<br>
+              <strong>Email:</strong> jalanin@gmail.com<br>
             </p>
           </div>
 
@@ -863,58 +862,13 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Beranda</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Tentang Kami</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-
         </div>
       </div>
     </div>
 
-    <div class="container d-lg-flex py-4">
-
-      <div class="me-lg-auto text-center text-lg-start">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Flexor</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-      </div>
-      <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
+    
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
