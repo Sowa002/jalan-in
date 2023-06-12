@@ -716,7 +716,6 @@
 
         <div class="section-title">
           <h2 data-aos="fade-up"><strong>F.A.Q</strong></h2>
-          <p data-aos="fade-up">Para Monyet RPL</p>
         </div>
 
         <div class="faq-list">
